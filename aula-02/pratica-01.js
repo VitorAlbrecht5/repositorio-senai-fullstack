@@ -1,9 +1,10 @@
 // Vitor
 
-let nome = "Vitor";
-let idade = 18;
-let cidade = "Novo Hamburgo";
+let numero1 = 10;
+let numero2 = 5;
 
-console.log("Nome: ", nome);
-console.log("Idade: ", idade);
-console.log("Cidade: ", cidade);
+console.log("Soma: " + (numero1 + numero2));
+console.log("Subtração: " + (numero1 - numero2));
+console.log("Multiplicação: " + (numero1 * numero2));
+console.log("Divisão: " + (numero1 / numero2));
+console.log("Resto da Divisão: " + (numero1 % numero2));

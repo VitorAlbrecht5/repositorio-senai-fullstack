@@ -1,9 +1,13 @@
-// Cibely
+// Vitor
 
-let valorComprado = 140;
+let nota = 6;
+let frequencia = 90;
 
-if (valorComprado >= 150) {
-    console.log("cliente recebeu frete grátis!");
+console.log("Nota: ", nota);
+console.log("Frequência: ", frequencia);
+
+if (nota >= 6 && frequencia >= 75) {
+    console.log("Você está aprovado");
 } else {
-    console.log("cliente não recebeu frete grátis");
+    console.log("Você está reprovado");
 }

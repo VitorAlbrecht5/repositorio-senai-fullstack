@@ -1,9 +1,11 @@
-// VITOR
+// Vitor
 
-let numero = 10;
+let numero = 2;
+
+console.log("Número: ", numero);
 
 if (numero % 2 == 0) {
-    console.log("O número é par");
+    console.log("Resultado: Par");
 } else {
-    console.log("O número é ímpar");
+    console.log("Resultado: Impar");
 }

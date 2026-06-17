@@ -1,9 +1,10 @@
 // Vitor
 
-let idade = 20;
+let estudante = false;
+let cupom = true;
 
-if (idade >= 18) {
-    console.log("Você é maior de idade");
+if (estudante || cupom) {
+    console.log("Desconto liberado")
 } else {
-    console.log("Você é menor de idade");
+    console.log("Desconto não liberado")
 }
