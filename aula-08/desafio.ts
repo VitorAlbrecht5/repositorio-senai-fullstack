@@ -9,11 +9,11 @@ class Aluno {
     this.nota2 = nota2;
   }
 
-  calcularMedia() {
+  calcularMedia(): number {
     return (this.nota1 + this.nota2) / 2;
   }
 
-  verificarSituacao() {
+  verificarSituacao(): string {
     if (this.calcularMedia() >= 6) {
       return "Aprovado";
     } else {
@@ -21,7 +21,7 @@ class Aluno {
     }
   }
 
-  exibirInformacoes() {
+  exibirInformacoes(): void {
     console.log(`Nome: ${this.nome}`);
     console.log(`Média: ${this.calcularMedia()}`);
     console.log(`Situação: ${this.verificarSituacao()}`);
