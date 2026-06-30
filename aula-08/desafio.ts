@@ -1,24 +1,38 @@
+class Aluno {
+  nome: string;
+  nota1: number;
+  nota2: number;
 
-function calcularMedia (nota1: number, nota2: number, nota3: number): number {
-    return (nota1 + nota2 + nota3) / 3;
-}
+  constructor(nome: string, nota1: number, nota2: number) {
+    this.nome = nome;
+    this.nota1 = nota1;
+    this.nota2 = nota2;
+  }
 
-let media = calcularMedia(8, 7, 6);
+  calcularMedia() {
+    return (this.nota1 + this.nota2) / 2;
+  }
 
-function verificarSituacao(media: number): string {
-    if (media >= 7) {
-        return "Aprovado"
-    } else if (media >= 5) {
-        return "Recuperacao"
+  verificarSituacao() {
+    if (this.calcularMedia() >= 6) {
+      return "Aprovado";
     } else {
-        return "Reprovado"
+      return "Reprovado";
     }
+  }
+
+  exibirInformacoes() {
+    console.log(`Nome: ${this.nome}`);
+    console.log(`Média: ${this.calcularMedia()}`);
+    console.log(`Situação: ${this.verificarSituacao()}`);
+  }
 }
 
-let situacao = verificarSituacao(media);
 
-function exibirBoletim (nome: string, media: number, situacao: string) {
-    return `Nome: ${nome}, Media: ${media}, Situacao: ${situacao}`
-}
+let aluno1 = new Aluno("Vitor", 6, 6);
+let aluno2 = new Aluno("Cibely", 5, 4);
+let aluno3 = new Aluno("Lucas", 10, 9);
 
-console.log(exibirBoletim("Vitor", media, situacao));
+aluno1.exibirInformacoes();
+aluno2.exibirInformacoes();
+aluno3.exibirInformacoes();

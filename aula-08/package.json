@@ -1,23 +1,15 @@
 {
-  "name": "repositorio-senai-fullstack",
+  "name": "aula-08",
   "version": "1.0.0",
-  "description": "**Turma:** Programador Full Stack - SENAI",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VitorAlbrecht5/repositorio-senai-fullstack.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/VitorAlbrecht5/repositorio-senai-fullstack/issues"
-  },
-  "homepage": "https://github.com/VitorAlbrecht5/repositorio-senai-fullstack#readme",
   "devDependencies": {
     "@types/node": "^26.0.1",
     "ts-node": "^10.9.2",

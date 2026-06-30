@@ -1,0 +1,10 @@
+let produto = {
+  nome: "Mouse",
+  preco: 50,
+  quantidade: 2,
+  calcularTotal: function () {
+    return this.preco * this.quantidade;
+  },
+};
+
+console.log(produto.calcularTotal());

@@ -1,65 +1,54 @@
-## 1. O que é uma função em programação?
+## 1. O que é um objeto em programação?
 
 **Resposta:**
-É um bloco de código reutilizável projetado para realizar uma tarefa específica.
+Uma representação de algo do mundo real.
 
-## 2. Qual é a principal vantagem de usar funções em vez de repetir o mesmo código várias vezes?
-
-**Resposta:**
-A principal vantagem é a organização e a reutilização do código.
-
-
-## 3. O que são parâmetros de uma função?
+## 2. O que é uma propriedade de um objeto? Cite um exemplo.
 
 **Resposta:**
-Os parâmetros são o que fica dentro dos parenteses e são os dados de entrada.
+É uma informação ou característica que pertence a ele. Exemplo: Em um objeto aluno, nome e idade são propriedades.
 
-
-## 4. Qual é a diferença entre parâmetro e argumento?
-
-**Resposta:**
-É a variável declarada na definição de uma função. O argumento é o dado real passado para essa função no momento em que ela é chamada.
-
-
-## 5. Para que serve a palavra-chave `return`?
+## 3. O que é um método? Qual a diferença entre método e propriedade?
 
 **Resposta:**
-Para retornar a função.
+Um método é uma ação ou comportamento que um objeto pode realizar e uma propriedade é uma característica ou dado sobre esse objeto.
 
-
-## 6. O que acontece quando uma função não possui `return`?
-
-**Resposta:**
-A função não retorna nada.
-
-
-## 7. O que significa modularizar um código?
+## 4. O que é uma classe?
 
 **Resposta:**
-Significa dividir eles em partes menores, reutilizáveis e independentes.
+É um modelo usado para criar objetos.
 
-
-## 8. Por que funções pequenas e bem nomeadas facilitam a manutenção do sistema?
-
-**Resposta:**
-Porque reduzem drasticamente a complexidade cognitiva.
-
-
-## 9. Em TypeScript, por que é útil informar o tipo dos parâmetros e do retorno?
+## 5. Qual a diferença entre classe e objeto?
 
 **Resposta:**
-Para garantir a previsibilidade do código, prevenir erros e melhorar a experiência de desenvolvimento.
+Classe é o modelo e objeto é o que foi criado apartir da classe.
 
-
-## 10. Observe a função abaixo. Qual será o resultado exibido no console?
-
-```ts
-function dobro(n: number): number {
-  return n * 2;
-}
-
-console.log(dobro(7));
-```
+## 6. Para que serve o `constructor` dentro de uma classe?
 
 **Resposta:**
-Vai retornar 14.
+Serve para inicializar os dados do objeto quando ele é criado.
+
+## 7. O que significa a palavra `this` dentro de uma classe?
+
+**Resposta:**
+Uma referência que aponta para o próprio objeto.
+
+## 8. O que a palavra `new` faz ao criar um objeto?
+
+**Resposta:**
+Instanciar uma classe.
+
+## 9. Em TypeScript, por que usamos tipos como `string`, `number` e `boolean`?
+
+**Resposta:**
+Para definir o tipo de dado e evitar erros.
+
+## 10. Dê um exemplo do mundo real que poderia virar uma classe em código e cite **3 propriedades** e **1 método**.
+
+**Resposta:**
+
+- **Classe:** carro
+- **Propriedade 1:** ano
+- **Propriedade 2:** marca
+- **Propriedade 3:** cor
+- **Método:** andar
